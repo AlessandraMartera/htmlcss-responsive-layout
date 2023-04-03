@@ -56,6 +56,25 @@ header .container {
     background-color: #fff;
 }
 
+/* Testimonials */
+#testimonials .container {
+    text-align: center;
+}
+
+.card {
+    margin-top: 20px;
+    color: white;
+    background-color: #9792e4;
+    border-radius: 50px;
+    padding: 20px;
+}
+
+
+.card img {
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 100%;
+}
 
 
 /* FOOTER */
