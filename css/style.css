@@ -9,10 +9,16 @@ body {
     font-family: 'PT Sans', sans-serif;
 }
 
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
 /* HEADER */
 header {
     height: 100px;
     background-color: #0084fd;
+    
 }
 
 #desktop-menu {
@@ -35,6 +41,11 @@ footer {
 
 
 /* DEBUG */
+
+.container {
+    min-height: 70px;
+    border: 1px dotted rgb(0, 27, 18);
+}
 
 main section {
     min-height: 300px;
