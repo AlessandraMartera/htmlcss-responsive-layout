@@ -1,0 +1,43 @@
+/* general settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* HEADER */
+header {
+    height: 100px;
+    background-color: #0084fd;
+}
+
+#desktop-menu {
+    display: none;
+}
+
+
+/* MAIN */
+
+
+
+
+/* FOOTER */
+footer {
+    height: 200px;
+    background-color: #333333;
+}
+
+
+
+
+/* DEBUG */
+
+main section {
+    min-height: 300px;
+    border: 2px solid yellow;
+}
+
