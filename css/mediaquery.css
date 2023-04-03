@@ -21,6 +21,37 @@
     .card {
         display: flex;
     }
+
+    /* benefits */
+    .benefits-card {
+        width: 45%;
+    }
+
+    .container-card-benefits {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    /* about us */
+    #about-us .container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #about-us-text {
+        font-size: 1.6em;
+        width: 47%;
+    }
+
+    #about-us-img {
+        width: 47%;
+    }
+
+    #about-us-img img {
+        width: 60%;
+    }
 }
 
 
@@ -44,5 +75,10 @@
     /* planning*/
     #planning .container {
         display: flex;
+    }
+
+    /* benefits */
+    .benefits-card {
+        width: 30%;
     }
 }
