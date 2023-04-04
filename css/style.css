@@ -16,6 +16,7 @@ body {
 }
 
 button {
+    cursor: pointer;
     padding: 6px 12px;
     background-color: #9792e4;
     color: #fff;
@@ -28,6 +29,7 @@ button {
 header {
     width: 100%;
     min-height: 70px;
+    padding-top: 15px;
     background-color: #0084fd;
     position: fixed;
     z-index: 900;
@@ -70,7 +72,7 @@ main section{
     background-color: #b5ddff;
     border-radius: 40px;
     margin-bottom: 30px;
-    padding: 50px;
+    padding: 30px;
     text-align: center;
 }
 
@@ -81,7 +83,7 @@ main section{
 
 .col h3 {
     color: #0084fd;
-    font-size: 36px;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 
@@ -92,7 +94,7 @@ main section{
     font-weight: 600;
 }
 
-.text-application > button{
+.col  button{
     width: 90%;
     background-color: #0084fd;
     font-size: 26px;
