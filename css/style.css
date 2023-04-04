@@ -21,7 +21,7 @@ button {
     background-color: #9792e4;
     color: #fff;
     border: none;
-    border-radius: 20px;
+    border-radius: 40px;
     font-size: 16px;
 }
 
@@ -192,22 +192,43 @@ main section{
 
 /* Benefits */
 #benefits {
+    background-color: #9792e4;
+    color: #fff;
     text-align: center;
     font-size: 30px;
 }
 
 #benefits .benefits-card {
+    background-color: #fff;
     margin-top: 20px;
-    padding: 15px;
+    padding: 30px;
     text-align: left;
     font-size: 20px;
     color: #9792e4;
     border-radius: 30px;
 }
 
-.benefits-card p {
-    color: #ccc;
+.benefits-card span {
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
 }
+
+.benefits-card h3 {
+    margin-bottom: 30px;
+} 
+
+.benefits-card p {
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.benefits-card button {
+    width: 60%;
+    padding: 10px;
+}
+
 
 /* About us */
 #about-us {
@@ -215,48 +236,90 @@ main section{
     color: #9792e4;
 }
 
+#about-us h2 {
+    font-size: 50px;
+}
+
 #about-us p {
-    margin: 20px 0;
+    margin: 30px 0;
     color: #4b4b4b;
+    line-height: 220%;
 }
 
 #about-us-img img {
-    width: 100%;
+    max-width: 100%;
+    border-radius: 50%;
 }
 
+#about-us-img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#about-us-img > i {
+    position: absolute;
+    right: -20px;
+    top: 0;
+    font-size: 90px;
+}
+
+#about-us #viole {
+    color: #9792e4;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 140%;
+}
+
+#about-us button {
+    padding: 10px 30px;
+}
+
+
+/* GET START */
 #get-start {
+    background-color: #9792e4;
     text-align: center;
+    color: #fff;
 }
 
 #get-start h1 {
     font-size: 40px;
     color: #fdc15f;
 }
+
+#get-start span {
+    color: #c9c8f0;
+}
+
+#get-start button{
+    width: 30%;
+    padding: 20px;
+    background-color: #fff;
+    color: #9792e4;
+    font-weight: 600;
+}
+
+#get-start .margin {
+    margin-top: 30px;
+}
+
+#get-start a {
+    color: #fff;
+}
+
+
 /* FOOTER */
 footer {
     height: 200px;
     background-color: #333333;
     text-align: center;
     color: #fff;
-}
-
-footer .container {
-    margin-top: 20px;
-}
-
-footer section {
-    margin-top: 15px;
+    padding: 30px;
 }
 
 
 /* DEBUG */
-
-.container {
-    min-height: 70px;
-}
-
-
-#benefits .benefits-card {
-    border: 2px dashed violet;
-}
 

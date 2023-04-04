@@ -58,20 +58,10 @@
     #about-us .container{
         display: flex;
         justify-content: space-between;
+        gap: 10%;
     }
 
-    #about-us-text {
-        font-size: 1.6em;
-        width: 47%;
-    }
-
-    #about-us-img {
-        width: 47%;
-    }
-
-    #about-us-img img {
-        width: 60%;
-    }
+    
 }
 
 
