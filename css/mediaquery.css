@@ -26,6 +26,11 @@
         width: 50%;
     }
 
+    /* planning */
+    #planning h2 {
+        font-size: 3em;
+    }
+
     /* testimonials */
     .card {
         display: flex;
@@ -103,11 +108,6 @@
     }
     
     /* MAin */
-   
-        /* planning*/
-        #planning .container {
-            display: flex;
-        }
 
         .demoapp .col:first-child {
             display: flex;
@@ -141,14 +141,33 @@
         /* other col  */
 
 
+        /* planning*/
+         #planning .container {
+            display: flex;
+            gap: 50px;
+        }
+
+        #planning #white-planning {
+            padding: 20px 10px;
+            align-self: flex-end;
+        }
+
+        #white-planning > h2 {
+            font-size: 1.5em;
+        }
+
+        #planning #viole-planning {
+            height: 1000px;
+        }
 
 
 
+        /* benefits */
+        .benefits-card {
+            width: 30%;
+        }
 
 
-
-    /* benefits */
-    .benefits-card {
-        width: 30%;
-    }
 }
+
+

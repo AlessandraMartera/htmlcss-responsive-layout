@@ -60,7 +60,7 @@ nav {
 
 /* MAIN */
 main section{
-    padding-top: 100px;
+    padding: 100px 0;
 }
 
 
@@ -100,11 +100,11 @@ main section{
     padding: 10px;
     margin-bottom: 20px;
 }
+
 .img-application > img{
     width: 100%;
     margin-bottom: -8px;
 }
-
 
 .col > i {
     font-size: 80px;
@@ -114,14 +114,45 @@ main section{
 
 
     /* planning */
-#planning .container {
-    text-align: center;
+#planning {
+    background-color: #9792e4;
 }
 
-#planning #white {
-    border-radius: 10px;
-    background-color: #fff;
+#planning .container {
+    color: #fff;
 }
+
+#planning p {
+    margin-bottom: 30px;
+}
+
+#planning h2 {
+    margin-bottom: 30px;
+}
+
+#planning img {
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+#planning #white-planning {
+    border-radius: 30px;
+    background-color: #fff;
+    color: #000;
+    padding: 60px 20px;
+    text-align: center;
+
+}
+
+#white-planning > p {
+    font-style: italic;
+}
+
+#white-planning button {
+    color: #000;
+    padding: 15px;
+}
+
 
 /* Testimonials */
 #testimonials .container {
@@ -206,22 +237,8 @@ footer section {
 
 .container {
     min-height: 70px;
-    border: 1px dotted rgb(0, 27, 18);
 }
 
-
-main section {
-    border: 2px solid yellow;
-}
-
-
-#planning .container {
-}
-
-#planning #white {
-    border: 2px dotted green;
-    min-height: 70px;
-}
 
 #benefits .benefits-card {
     border: 2px dashed violet;
