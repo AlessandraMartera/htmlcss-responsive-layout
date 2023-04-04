@@ -61,7 +61,19 @@
         gap: 10%;
     }
 
+    /* get start */
+    #get-start h2 {
+        font-size: 3em;
+    }
+
+    #get-start .container {
+        width: 80%;
+    }
     
+    /* Footer */
+    footer .container {
+        width: 60%;
+    }
 }
 
 
@@ -164,7 +176,16 @@
             width: 30%;
         }
 
+        /* get start */
+        #get-start .container {
+            width: 35%;
+        }
 
+        /* Footer */
+        footer .container {
+            width: 30%;
+        }
+        
 }
 
 

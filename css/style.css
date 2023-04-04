@@ -279,6 +279,8 @@ main section{
 
 
 /* GET START */
+
+
 #get-start {
     background-color: #9792e4;
     text-align: center;
@@ -295,6 +297,7 @@ main section{
 }
 
 #get-start button{
+    min-width: 200px;
     width: 30%;
     padding: 20px;
     background-color: #fff;
@@ -313,11 +316,21 @@ main section{
 
 /* FOOTER */
 footer {
-    height: 200px;
+    min-height: 200px;
     background-color: #333333;
     text-align: center;
     color: #fff;
     padding: 30px;
+}
+
+
+
+footer section {
+    margin-bottom: 30px;
+}
+
+footer a {
+    color: #9792e4;
 }
 
 
