@@ -11,12 +11,19 @@
         flex-wrap: wrap;
     }
     .demoapp .col {
-
         width: 30%;
     }
     
     .demoapp .col:first-child {
         width: 65%;
+    }
+
+    .img-application img{
+        width: 50%;
+    }
+
+    .col button {
+        width: 50%;
     }
 
     /* testimonials */
@@ -97,10 +104,46 @@
     
     /* MAin */
    
-    /* planning*/
-    #planning .container {
-        display: flex;
-    }
+        /* planning*/
+        #planning .container {
+            display: flex;
+        }
+
+        .demoapp .col:first-child {
+            display: flex;
+        }
+
+        .img-application {
+            flex-basis: 40%;
+            align-self: flex-end;
+        }
+
+        .img-application img {
+            width: 100%;
+            margin-bottom: -5px;
+        }
+
+        .text-application{
+            font-size: 20px;
+            width: 57%;
+        }
+
+        .text-application p {
+            line-height: 140%;
+        }
+        .text-application > button {
+            font-size: 16px;
+        }
+    
+
+        /* other col  */
+
+
+
+
+
+
+
 
     /* benefits */
     .benefits-card {
