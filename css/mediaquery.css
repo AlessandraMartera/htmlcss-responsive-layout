@@ -1,7 +1,9 @@
 
 /* tablet settings */
-@media  screen and (min-width: 690px ) {
-
+@media  screen and (min-width: 810px ) {
+    body{
+         font-size: 20px;
+    }
         /* demo app */
     .demoapp .container {
         display: flex;
@@ -57,7 +59,11 @@
 
 
 /* desktop settings */
-@media  screen and (min-width: 1024px) {
+@media  screen and (min-width: 1400px) {
+    body{
+        font-size: 16px;
+    }
+
     #mobile-menu {
         display: none;
     }
@@ -66,12 +72,31 @@
     }
 
     #desktop-menu {
-        width: 40%;
         display: inline-block;
     }
 
+    #desktop-menu ul {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        gap: 10px;
+    }
+    
+    #get-start-button a {
+        color: #333333;
+        
+    }
+    #get-start-button {
+        background-color: #fff;
+        transition: all 1s;
+    }
+    #get-start-button:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+    
     /* MAin */
-
+   
     /* planning*/
     #planning .container {
         display: flex;

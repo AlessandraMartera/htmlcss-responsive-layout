@@ -7,6 +7,7 @@
 
 body {
     font-family: 'PT Sans', sans-serif;
+    font-size: 30px;
 }
 
 .container {
@@ -14,31 +15,59 @@ body {
     margin: 0 auto;
 }
 
+button {
+    padding: 6px 12px;
+    background-color: #9792e4;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: medium;
+}
+
 /* HEADER */
 header {
-    height: 70px;
+    width: 100%;
+    min-height: 70px;
     background-color: #0084fd;
-    
+    position: fixed;
+    z-index: 900;
 }
+
 header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav {
+    color: #fff;
+    font-size: 20px;
+}
+
 #desktop-menu {
     display: none;
 }
 
-#desktop-menu ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
+#mobile-menu {
+    font-size: 40px;
+    cursor: pointer;
 }
 
 
 
+
+
 /* MAIN */
+main section{
+    padding-top: 100px;
+}
+
+
     /* Demo app */
 .demoapp .col {
     background-color: #b5ddff;
@@ -142,28 +171,9 @@ footer section {
     border: 1px dotted rgb(0, 27, 18);
 }
 
-#logo{
-    width: 50px;
-    height: 50px;
-    background-color: aqua;
-}
-
-#mobile-menu {
-    width: 50px;
-    height: 50px;
-    background-color: aqua;
-}
-
-#desktop-menu {
-    width: 50px;
-    height: 50px;
-    background-color: aqua;
-}
 
 main section {
-    min-height: 300px;
     border: 2px solid yellow;
-    padding: 40px 0;
 }
 
 .demoapp .col {
